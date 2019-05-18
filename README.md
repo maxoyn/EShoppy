@@ -7,5 +7,5 @@ This is the main point – the simplicity of not having to share a list every ti
 </br>
 The core functionality is operational, but the UI is incomplete.</br>
 
-![alt text](https://github.com/maxoyn/EShoppy/blob/master/images/all-lists-screen.png)
-![alt text](https://github.com/maxoyn/EShoppy/blob/master/images/in-list-view.png)
+![alt text](https://github.com/maxoyn/EShoppy/blob/master/images/all-lists-screen.png =360x640)
+![alt text](https://github.com/maxoyn/EShoppy/blob/master/images/in-list-view.png =360x640)
