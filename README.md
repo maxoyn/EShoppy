@@ -7,10 +7,10 @@ This is the main point – the simplicity of not having to share a list every ti
 </br>
 The core functionality is operational, but the UI is incomplete.</br>
 
-Login view (Main menu sort of)
+Login view (Main menu sort of) </br>
 <img src="https://github.com/maxoyn/EShoppy/blob/master/images/all-lists-screen.png" width="360" height="640">
 <br>
 
-In list view
+In list view </br>
 <img src="https://github.com/maxoyn/EShoppy/blob/master/images/in-list-view.png" width="360" height="640">
 
