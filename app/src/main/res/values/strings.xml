@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EShoppy</string>
+    <string name="title_activity_selected_item">SelectedItemActivity</string>
+    <string name="title_activity_current_list">CurrentListActivity</string>
+</resources>

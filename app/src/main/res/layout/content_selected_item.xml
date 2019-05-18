@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SelectedItemActivity"
+    tools:showIn="@layout/activity_selected_item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/selected_item"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="Your selected item."/>
+
+        <EditText
+            android:id="@+id/selected_price"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:inputType="numberDecimal"
+            android:hint="Optional price"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/selected_quantity"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:hint="1"/>
+
+
+            <Button
+                android:id="@+id/decrease_selected"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:text="-"
+                android:textSize="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          "/>
+
+            <Button
+                android:id="@+id/increase_selected"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="24dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update" />
+
+        <Button
+            android:id="@+id/delete_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="DELETE" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "837612235098",
+    "firebase_url": "https://eshoppy-7e67b.firebaseio.com",
+    "project_id": "eshoppy-7e67b",
+    "storage_bucket": "eshoppy-7e67b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837612235098:android:2fc4dd5ca8259d09",
+        "android_client_info": {
+          "package_name": "com.simeonch.eshoppy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837612235098-kal0qnrb9g1nj925t0ealv9vupm9i39q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simeonch.eshoppy",
+            "certificate_hash": "b1f192cb1e1c8a5549b9ba84fc88d9945e4d30bd"
+          }
+        },
+        {
+          "client_id": "837612235098-k52gj6np75rs8691sdd180vtlupc0662.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw84pVFR3NKesBJylUKhtXZ2emzXlurGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837612235098-k52gj6np75rs8691sdd180vtlupc0662.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

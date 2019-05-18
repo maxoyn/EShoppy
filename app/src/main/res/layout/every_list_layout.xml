@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/single_list"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg4"
+        android:gravity="center">
+        <TextView
+            android:id="@id/list_name"
+            android:layout_marginLeft="60dp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/consola"
+            android:gravity="center_vertical"
+            android:text="Filler"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/delete_list"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/bg3"
+            android:text="DELETE"
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
